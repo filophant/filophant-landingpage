@@ -24,7 +24,7 @@ export const FooterSection = () => {
             <span className="font-semibold text-foreground">Filophant</span>
           </div>
           <div className="flex items-center gap-6">
-            <a href="https://github.com" className="hover:text-foreground transition-colors">
+            <a href="https://github.com/filophant/filophant-macos" className="hover:text-foreground transition-colors">
               GitHub
             </a>
             <a href="#" className="hover:text-foreground transition-colors">
@@ -34,7 +34,13 @@ export const FooterSection = () => {
               License (GPLv3)
             </a>
           </div>
-          <p>&copy; {new Date().getFullYear()} Filophant</p>
+          <p>
+            Built by{" "}
+            <a href="https://hagenhuebel.de" className="hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">Hagen</a>
+            {" "}
+            <a href="https://github.com/itinance" className="hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">@itinance</a>
+            {" · "}&copy; {new Date().getFullYear()} Filophant
+          </p>
         </div>
       </div>
     </footer>

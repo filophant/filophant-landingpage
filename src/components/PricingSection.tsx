@@ -1,6 +1,7 @@
 "use client";
 
 import { ScrollReveal } from "./ScrollReveal";
+import { WaitlistForm } from "./WaitlistForm";
 
 const benefits = [
   {
@@ -38,7 +39,7 @@ export const PricingSection = () => {
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed max-w-xl mx-auto">
             Filophant is licensed under <strong className="text-foreground">GPLv3</strong>. The code
-            is yours to audit, fork, and build. So why pay $5?
+            is yours to audit, fork, and build. The signed build will be available for €8.95.
           </p>
         </ScrollReveal>
 
@@ -58,15 +59,13 @@ export const PricingSection = () => {
 
         <ScrollReveal delay={0.3}>
           <div className="mt-12">
-            <a
-              href="#"
-              className="inline-flex items-center gap-2 rounded-xl bg-primary px-8 py-4 text-sm font-semibold text-primary-foreground shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 transition-all duration-200 active:scale-[0.97]"
-            >
-              Download Filophant — $5
-            </a>
-            <p className="mt-3 text-xs text-muted-foreground">
+            <p className="text-sm text-muted-foreground mb-4">
+              Join the waitlist to be first in line.
+            </p>
+            <WaitlistForm />
+            <p className="mt-4 text-xs text-muted-foreground">
               Or{" "}
-              <a href="https://github.com" className="underline hover:text-foreground transition-colors">
+              <a href="https://github.com/filophant/filophant-macos" className="underline hover:text-foreground transition-colors">
                 compile it yourself
               </a>{" "}
               — the code is free.

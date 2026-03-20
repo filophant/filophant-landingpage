@@ -35,7 +35,7 @@ export const Navbar = () => {
             Pricing
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/filophant/filophant-macos"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-foreground transition-colors"
@@ -49,7 +49,7 @@ export const Navbar = () => {
           href="#pricing"
           className="rounded-lg bg-primary px-4 py-2 text-xs font-semibold text-primary-foreground hover:bg-primary/90 transition-all duration-200 active:scale-[0.97]"
         >
-          Download Beta
+          Join Waitlist
         </a>
       </div>
     </motion.nav>
