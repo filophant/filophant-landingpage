@@ -27,7 +27,7 @@ export const HeroSection = () => {
         >
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-medium text-muted-foreground">
             <span className="w-1.5 h-1.5 rounded-full bg-[hsl(145,60%,48%)]" />
-            Open Beta — macOS only
+            In Development — macOS
           </span>
         </motion.div>
 

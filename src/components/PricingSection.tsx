@@ -39,7 +39,7 @@ export const PricingSection = () => {
           </h2>
           <p className="mt-4 text-muted-foreground leading-relaxed max-w-xl mx-auto">
             Filophant is licensed under <strong className="text-foreground">GPLv3</strong>. The code
-            is yours to audit, fork, and build. The signed build will be available for €8.95.
+            is yours to audit, fork, and build. The ready-to-use installer will be available for €8.95.
           </p>
         </ScrollReveal>
 

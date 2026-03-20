@@ -13,7 +13,7 @@ export const FooterSection = () => {
               <span className="text-primary">Start stomping.</span>
             </h2>
             <p className="mt-3 text-muted-foreground">
-              Filophant for macOS — Open Beta available now.
+              Filophant for macOS — coming soon.
             </p>
           </div>
         </ScrollReveal>
