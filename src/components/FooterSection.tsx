@@ -24,6 +24,9 @@ export const FooterSection = () => {
             <span className="font-semibold text-foreground">Filophant</span>
           </div>
           <div className="flex items-center gap-6">
+            <a href="#contribute" className="hover:text-foreground transition-colors">
+              Contribute
+            </a>
             <a href="https://github.com/filophant/filophant-macos" className="hover:text-foreground transition-colors">
               GitHub
             </a>

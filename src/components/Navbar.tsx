@@ -34,6 +34,9 @@ export const Navbar = () => {
           <a href="#pricing" className="hover:text-foreground transition-colors">
             Pricing
           </a>
+          <a href="#contribute" className="hover:text-foreground transition-colors">
+            Contribute
+          </a>
           <a
             href="https://github.com/filophant/filophant-macos"
             target="_blank"

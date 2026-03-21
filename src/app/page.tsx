@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { PainPointsSection } from "@/components/PainPointsSection";
 import { TechSection } from "@/components/TechSection";
 import { PricingSection } from "@/components/PricingSection";
+import { ContributeSection } from "@/components/ContributeSection";
 import { FooterSection } from "@/components/FooterSection";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <PainPointsSection />
         <TechSection />
         <PricingSection />
+        <ContributeSection />
       </main>
       <FooterSection />
     </>
