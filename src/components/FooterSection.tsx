@@ -30,10 +30,7 @@ export const FooterSection = () => {
             <a href="https://github.com/filophant/filophant-macos" className="hover:text-foreground transition-colors">
               GitHub
             </a>
-            <a href="#" className="hover:text-foreground transition-colors">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors">
+            <a href="https://github.com/filophant/filophant-macos/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
               License (GPLv3)
             </a>
           </div>
